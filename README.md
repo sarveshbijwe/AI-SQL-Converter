@@ -35,10 +35,10 @@ To run the project locally, you will need:
 ## 🎨 Screenshots
 
 ### Natural Language Input
-(Screenshot here)
+![Natural Language Input](./Main.jpg)
 
 ### Generated SQL Query
-(Screenshot here)
+![Generated SQL Query](./Demo.jpg)
 
 ## 🤝 Contributing
 
