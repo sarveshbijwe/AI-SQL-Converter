@@ -43,7 +43,7 @@ To run the project locally, you will need:
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/yourusername/AI-SQL-Converter/issues) or submit a pull request.
+Feel free to check the [issues page](https://github.com/sarveshbijwe/AI-SQL-Converter/issues) or submit a pull request.
 
 ## ⚖️ License
 
