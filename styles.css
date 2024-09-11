@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4AC29A, #BDFFF3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #4AC29A;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  textarea:focus {
+    border-color: #BDFFF3;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4AC29A;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #BDFFF3;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(1);
+  }
+  
+  .output-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    overflow-x: auto;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  canvas {
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    textarea {
+      height: 100px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  
+    canvas {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

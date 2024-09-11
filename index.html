@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SQL Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>AI SQL Converter</h1>
+        <p>If you encounter any bugs or errors, or if you have new ideas or features you'd like to see added, please share them with us! and will address your feedback in future updates. Your contributions are highly valued!</p>
+        <br>
+        <textarea id="input-message" placeholder="Enter your natural language query here..."></textarea>
+        <button id="convert-btn">Convert to SQL</button>
+        <div id="output" class="output-box">
+            <h2>SQL Command</h2>
+            <pre id="sql-command"></pre>
+        </div>
+        <br>
+        <h3>Information Of Project:</h3>
+        <p>
+          Project: <b>AI SQL Converter</b>
+          The AI SQL Converter is a web-based tool that converts natural language queries into SQL commands. Users can input their query in plain English, and the application will generate the corresponding SQL query, simplifying database interactions. The project integrates AI through the <b>API</b> to process and interpret natural language inputs. <br>
+          Additionally, the tool provides a canvas to visualize the table schema and allows users to download the schema as an image.</p>
+          <br>
+        <canvas id="table-schema" width="400" height="300"></canvas>
+        <br>
+        <button id="download-btn">Download Table Schema</button>
+        <h3>Project Created With:</h3>
+        <h4>Sarvesh Bijwe</h4>
+        <h4>Sumedh Bodade</h4>
+    </div>
+ 
+    <script src="script.js" type="module"></script>
+</body>
+</html>
